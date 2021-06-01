@@ -1,0 +1,7 @@
+# Ignore venv except requirements
+venv/*
+!venv/Scripts
+venv/Scripts/*
+!venv/Scripts/requirements.txt
+.idea
+prerun.bat
